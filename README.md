@@ -8,44 +8,56 @@ ImageCaptioning improved with attention. Also a PyQt5 applications
 - Moreover,`Beam Search` are also used during the inferrence part and this give another great improvment on the model's performence 
 - Now, let's enjoy some funny stuff😎
 -
-# Examples👍
-## 1.doggy doggy, juicy doggy
+# 1.Examples👍
+## ①.doggy doggy, juicy doggy
 - <img src="https://github.com/Mountchicken/ImageCaptioning-Attention-PyQt5/blob/main/github/dog.JPG" width="719" height="413" alt="😀"/><br/>
 
 
-## 2.When did I become a hat ?
+## ②.When did I become a hat ?
 - <img src="https://github.com/Mountchicken/ImageCaptioning-Attention-PyQt5/blob/main/github/girl.JPG" width="719" height="413" alt="😀"/><br/>
 - 
-## 3.You don't want to mess up with No. 1 shooter in the west
+## ③.You don't want to mess up with No. 1 shooter in the west
 - <img src="https://github.com/Mountchicken/ImageCaptioning-Attention-PyQt5/blob/main/github/cowboy.JPG" width="719" height="413" alt="😀"/><br/>
 
-## 4.🌶④💉💧🐮🍺
+## ④.🌶④💉💧🐮🍺
 - <img src="https://github.com/Mountchicken/ImageCaptioning-Attention-PyQt5/blob/main/github/sun.JPG" width="719" height="413" alt="😀"/><br/>
 
-## 5.Portland Timbers, Assemble!
+## ⑤.Portland Timbers, Assemble!
 - <img src="https://github.com/Mountchicken/ImageCaptioning-Attention-PyQt5/blob/main/github/champers.JPG" width="719" height="413" alt="😀"/><br/>
 
-## 6.mountchicken must has something to do with mountain
+## ⑥.mountchicken must has something to do with mountain
 - <img src="https://github.com/Mountchicken/ImageCaptioning-Attention-PyQt5/blob/main/github/mountain.JPG" width="719" height="413" alt="😀"/><br/>
+- 
+# 2.Requirements
+- skimage
+- spacy
+- PyQt5
+- Pip install them
 
-## download pretrained weights
-- The weights are larger than the uploading limit(25M below😅). Download them using BaiduYun
-- Put them in CTPN_weights [CTPN weights(提取码:vqih)](https://pan.baidu.com/s/1OP4H87hunibVOQK_TKH-OA)
-- Put them in CRNN_weights [CRNN weights(提取码:k4r4)](https://pan.baidu.com/s/1Ie-X_5Z-JuypKzsD3bRkzA)
+# 3.Train😣
+## download flickr30k
+- Download the flickr30k dataset, unpack all the images into the folder `flickr30k/flickr30k-images`. I have already preprocessed the captions.txt, and you don't need to download that 
+- [flickr(提取码:hrf3)](https://pan.baidu.com/s/1r0RVUwctJsI0iNuVXHQ6kA)
+## download my checkpoint(if you don't want to train it with 14h on GeForce2080ti)
+- Put the downloaded checkpoint into the folder `checkpoint`
+- [checkpoint(提取码:hrf3)](https://pan.baidu.com/s/1r0RVUwctJsI0iNuVXHQ6kA)
+## change some parameters
+- `train.py` line20 - line26, set the dataset path
+- `train.py` line31 - line34, `load_model`:load my checkpoint or not.
+- Ok, you can train now
 
-## Choose which model to use
-- In `inferrence.py`, from line 27 to line 32
-- `argument: crnn_weights`: the file location of crnn weigth downloaded in the previous step
-- `argument: ctpn_basemodel`:choose a ctpb backbone: vgg16, resnet50, shufflenet_v2_x1_0, mobilenet_v3_large, mobilenet_v3_small
-- `argument: ctpn_weights`:corresponding ctpn weights with ctpn_base model downloaded in the previous step
+# 4.Inferrence😀
+- `inferrence.py` line245, choose your predict image path
+
+# 5.APP
 
 ## Run main_gui.py
-- if you run the .py file succesfully, it should look like this
-- ![test_example](https://github.com/Mountchicken/CTPN_CRNN_ChineseOCR_PyQt5/blob/main/github/menu.JPG)
-- Then, you need to push the initialize button to load the model, after that, just wait the `Finished` sign appers in the right.
-- ![test_example](https://github.com/Mountchicken/CTPN_CRNN_ChineseOCR_PyQt5/blob/main/github/Initialized.JPG)
-- Finally, load the image with `Load Image` button and press `Detect`
-- ![test_example](https://github.com/Mountchicken/CTPN_CRNN_ChineseOCR_PyQt5/blob/main/github/detectd.JPG)
+### if you run the .py file succesfully, it should look like this
+- <img src="https://github.com/Mountchicken/ImageCaptioning-Attention-PyQt5/blob/main/github/main.JPG" width="719" height="413" 
+### Then, you need to push the initialize button to load the model, after that, just wait the `Finished` sign appers in the right.
+- <img src="https://github.com/Mountchicken/ImageCaptioning-Attention-PyQt5/blob/main/github/initialized.JPG" width="719" height="413"
+### Finally, load the image with `Load Image` button and press `Detect`
+- ![test_example](https://github.com/Mountchicken/CTPN_CRNN_ChineseOCR_PyQt5/blob/main/github/taiquandao.JPG)
 
 # For more issue, contact me
 - `Email Address` mountchicken@outlook.com
