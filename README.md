@@ -9,11 +9,11 @@ ImageCaptioning improved with attention. Also a PyQt5 applications
 - Now, let's enjoy some funny stuff😎
 -
 # Examples👍
-## doggy doggy, juicy doggy
+## 1.doggy doggy, juicy doggy
 - <img src="https://github.com/Mountchicken/ImageCaptioning-Attention-PyQt5/blob/main/github/dog.JPG" width="719" height="413" alt="😀"/><br/>
 
-# How to use it
-- I'm sorry guys, i haven't find a way to deploy it, and you have to run it in your compiler 🙇‍♂️(VScode, pycharm or...)
+## 2.You don't want to mess up with No. 1 shooter in the west
+- <img src="https://github.com/Mountchicken/ImageCaptioning-Attention-PyQt5/blob/main/github/cowboy.JPG" width="719" height="413" alt="😀"/><br/>
 
 ## download pretrained weights
 - The weights are larger than the uploading limit(25M below😅). Download them using BaiduYun
