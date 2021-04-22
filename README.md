@@ -39,7 +39,7 @@ ImageCaptioning improved with attention. Also a PyQt5 applications
 - [flickr(提取码:hrf3)](https://pan.baidu.com/s/1r0RVUwctJsI0iNuVXHQ6kA)
 ## download my checkpoint(if you don't want to train it with 14h on GeForce2080ti)
 - Put the downloaded checkpoint into the folder `checkpoint`
-- [checkpoint(提取码:hrf3)](https://pan.baidu.com/s/1r0RVUwctJsI0iNuVXHQ6kA)
+- [checkpoint(提取码:qny4)](https://pan.baidu.com/s/189u5i5vZbzIp9r4XoEYn6A)
 ## change some parameters
 - `train.py` line20 - line26, set the dataset path
 - `train.py` line31 - line34, `load_model`:load my checkpoint or not.
