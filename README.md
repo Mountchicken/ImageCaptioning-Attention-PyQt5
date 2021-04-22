@@ -7,15 +7,14 @@ ImageCaptioning improved with attention. Also a PyQt5 applications
 - Using the `ResNet50` pretrained on ImageNet as the backbone(no finetune) and also some attention, the model can describe image like human(most of the time).
 - Moreover,`Beam Search` are also used during the inferrence part and this give another great improvment on the model's performence 
 - Now, let's enjoy some funny stuff😎
--
+
 # 1.Examples👍
 ## ①.doggy doggy, juicy doggy
 - <img src="https://github.com/Mountchicken/ImageCaptioning-Attention-PyQt5/blob/main/github/dog.JPG" width="719" height="413" alt="😀"/><br/>
 
-
 ## ②.When did I become a hat ?
 - <img src="https://github.com/Mountchicken/ImageCaptioning-Attention-PyQt5/blob/main/github/girl.JPG" width="719" height="413" alt="😀"/><br/>
-- 
+
 ## ③.You don't want to mess up with No. 1 shooter in the west
 - <img src="https://github.com/Mountchicken/ImageCaptioning-Attention-PyQt5/blob/main/github/cowboy.JPG" width="719" height="413" alt="😀"/><br/>
 
@@ -27,7 +26,7 @@ ImageCaptioning improved with attention. Also a PyQt5 applications
 
 ## ⑥.mountchicken must has something to do with mountain
 - <img src="https://github.com/Mountchicken/ImageCaptioning-Attention-PyQt5/blob/main/github/mountain.JPG" width="719" height="413" alt="😀"/><br/>
-- 
+ 
 # 2.Requirements
 - skimage
 - spacy
@@ -53,11 +52,13 @@ ImageCaptioning improved with attention. Also a PyQt5 applications
 
 ## Run main_gui.py
 ### if you run the .py file succesfully, it should look like this
-- <img src="https://github.com/Mountchicken/ImageCaptioning-Attention-PyQt5/blob/main/github/main.JPG" width="719" height="413" 
+- <img src="https://github.com/Mountchicken/ImageCaptioning-Attention-PyQt5/blob/main/github/main.JPG" width="719" height="413" alt="😀"/><br/>
+
 ### Then, you need to push the initialize button to load the model, after that, just wait the `Finished` sign appers in the right.
-- <img src="https://github.com/Mountchicken/ImageCaptioning-Attention-PyQt5/blob/main/github/initialized.JPG" width="719" height="413"
+- <img src="https://github.com/Mountchicken/ImageCaptioning-Attention-PyQt5/blob/main/github/initialized.JPG" width="719" height="413" alt="😀"/><br/>
+
 ### Finally, load the image with `Load Image` button and press `Detect`
-- ![test_example](https://github.com/Mountchicken/CTPN_CRNN_ChineseOCR_PyQt5/blob/main/github/taiquandao.JPG)
+- <img src="https://github.com/Mountchicken/ImageCaptioning-Attention-PyQt5/blob/main/github/taiquandao.JPG" width="719" height="413" alt="😀"/><br/>
 
 # For more issue, contact me
 - `Email Address` mountchicken@outlook.com
