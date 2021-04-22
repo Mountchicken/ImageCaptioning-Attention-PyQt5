@@ -10,7 +10,7 @@ ImageCaptioning improved with attention. Also a PyQt5 applications
 -
 # Examples👍
 ## doggy doggy, juicy doggy
-- <img src="https://github.com/Mountchicken/ImageCaptioning-Attention-PyQt5/blob/main/github/dog.JPG" width="413" height="719" alt="😀"/><br/>
+- <img src="https://github.com/Mountchicken/ImageCaptioning-Attention-PyQt5/blob/main/github/dog.JPG" width="719" height="413" alt="😀"/><br/>
 
 # How to use it
 - I'm sorry guys, i haven't find a way to deploy it, and you have to run it in your compiler 🙇‍♂️(VScode, pycharm or...)
