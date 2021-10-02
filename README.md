@@ -12,9 +12,6 @@ ImageCaptioning improved with attention. Also a PyQt5 applications
 ## ①.doggy doggy, juicy doggy
 - <img src="https://github.com/Mountchicken/ImageCaptioning-Attention-PyQt5/blob/main/github/dog.JPG" width="719" height="413" alt="😀"/><br/>
 
-## ②.When did I become a hat ?
-- <img src="https://github.com/Mountchicken/ImageCaptioning-Attention-PyQt5/blob/main/github/girl.JPG" width="719" height="413" alt="😀"/><br/>
-
 ## ③.You don't want to mess up with No. 1 shooter in the west
 - <img src="https://github.com/Mountchicken/ImageCaptioning-Attention-PyQt5/blob/main/github/cowboy.JPG" width="719" height="413" alt="😀"/><br/>
 
